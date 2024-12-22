@@ -1,0 +1,81 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff;
+}
+.container {
+    display: flex-start;
+    height: 250vh;
+    justify-content: space-evenly;
+    align-items: center;
+    background: rgba(149, 191, 204, 0.704); /* Полупрозрачный слой для читаемости текста */
+}
+.card {
+    text-align: center;
+}
+.card img {
+    width: 350px;
+    height: 375px;
+    border-radius: 600%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border: 0px solid transparent;
+    box-shadow: 0 4px 20px 5px rgba(212, 208, 208, 0.927);
+    object-fit: cover;
+}
+.card h1 {
+    margin: 0;
+    font-size: 36px;
+    text-shadow: 1px 1px 2px rgb(18, 18, 18), 0 0 6em rgb(16, 16, 17), 0 0 0.2em rgb(9, 9, 10);
+}
+.card p {
+    margin: 10px 0;
+    font-size: 35px;
+    font-family: dayton;
+    text-shadow: 1px 1px 2px rgb(18, 18, 18), 0 0 6em rgb(16, 16, 17), 0 0 0.2em rgb(9, 9, 10);
+}
+.card ul {
+    margin: 80px 0;
+    margin-right: 20px;
+    font-size: 35px;
+    font-family: dayton;
+    text-shadow: 1px 1px 2px rgb(18, 18, 18), 0 0 6em rgb(16, 16, 17), 0 0 0.2em rgb(9, 9, 10);
+    text-decoration: underline;
+}
+.stack ul {
+    align-items: center;
+    margin: 40px 0;
+    border: 0px solid transparent;
+    box-shadow: 0 4px 20px 5px rgba(212, 208, 208, 0.927);
+    object-fit: fill;
+    margin-right: 20px;
+    font-size: 35px;
+    font-family: dayton;
+    text-shadow: 1px 1px 2px rgb(18, 18, 18), 0 0 6em rgb(16, 16, 17), 0 0 0.2em rgb(9, 9, 10);
+    text-decoration: underline;
+} 
+.stack li {
+    display: block;
+    margin: 40px 0;
+    margin-left: 30px;
+    border-radius: 700px;
+    font-family: dayton;
+    font-size: 25px;
+    text-shadow: 1px 1px 2px rgb(18, 18, 18), 0 0 6em rgb(16, 16, 17), 0 0 0.2em rgb(9, 9, 10);
+    text-decoration: none;
+} 
+.card a {
+    margin-top: 15px;
+    margin-left: 30px;
+    padding: 10px 20px;
+    background: #fbf9f9;
+    color: #434141;
+    text-decoration: underline;
+    border-radius: 5px;
+}
+.card a:hover {
+    background: #5f9969;
+    
+}
